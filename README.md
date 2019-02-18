@@ -1,5 +1,5 @@
 ﻿# TVProgram
-![アプリスクリーンショット](https://github.com/TN8001/TVProgram/blob/master/AppImage.png)
+![アプリスクリーンショット](AppImage.png)
 ## 概要
 テレビ王国RSSから現在放送中の番組を取得する、テストアプリです。（神奈川仕様）
 ## 特徴
