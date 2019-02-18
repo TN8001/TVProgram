@@ -30,7 +30,7 @@ namespace TVProgram
                 new Program(141, "ＢＳ日テレ", "icon.png"),
                 new Program(151, "ＢＳ朝日", "icon.png"),
                 new Program(161, "ＢＳ-ＴＢＳ", "icon.png"),
-                new Program(171, "ＢＳジャパン", "icon.png"),
+                new Program(171, "ＢＳテレ東", "icon.png"),
                 new Program(181, "ＢＳフジ", "icon.png"),
                 new Program(211, "BSイレブン", "icon.png"),
                 new Program(222, "トゥエルビ", "icon.png"),
@@ -44,9 +44,9 @@ namespace TVProgram
         {
             timer.Stop();
             var l = new List<XmlElement>();
-            l.AddRange(GetRssItems("http://tv.so-net.ne.jp/rss/schedulesByCurrentTime.action?group=10&stationAreaId=24"));
-            l.AddRange(GetRssItems("http://tv.so-net.ne.jp/rss/schedulesByCurrentTime.action?group=21"));
-            l.AddRange(GetRssItems("http://tv.so-net.ne.jp/rss/schedulesByCurrentTime.action?group=22"));
+            l.AddRange(GetRssItems("https://tv.so-net.ne.jp/rss/schedulesByCurrentTime.action?group=10&stationAreaId=24"));
+            l.AddRange(GetRssItems("https://tv.so-net.ne.jp/rss/schedulesByCurrentTime.action?group=21"));
+            l.AddRange(GetRssItems("https://tv.so-net.ne.jp/rss/schedulesByCurrentTime.action?group=22"));
             var firstEnd = UpdateAll(l);
 
             timer.Interval = firstEnd - DateTime.Now + TimeSpan.FromSeconds(5);

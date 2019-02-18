@@ -1,16 +1,18 @@
-# TVProgram
-![�A�v���X�N���[���V���b�g](https://github.com/TN8001/TVProgram/blob/master/AppImage.png)
-## �T�v
-�e���r����RSS���猻�ݕ������̔ԑg���擾����A�e�X�g�A�v���ł��B�i�_�ސ�d�l�j
-## ����
-�ԑg�̐؂�ւ�莞��1���ԐF��ς��Ėڗ������܂��B
-## �g����
-�N�����邾���ł��B  
-�e�X�g�A�v���Ȃ̂Őݒ蓙�͈�؂���܂���B  
-�I������ɂ͉E�N���b�N���܂��B
-## ���C�Z���X
-[MIT](https://github.com/TN8001/TVProgram/blob/master/LICENSE)
-## ���ӎ���
-* ��ؐӔC�͎����܂���B
-* �C��K���X���ʂ����ɂ���Ă͓����Ȃ���������܂���iWin10�̂݁H�H�j
-MainWindow.xaml.cs�̊Y���������R�����g�A�E�g���Ă��������B
+﻿# TVProgram
+![アプリスクリーンショット](https://github.com/TN8001/TVProgram/blob/master/AppImage.png)
+## 概要
+テレビ王国RSSから現在放送中の番組を取得する、テストアプリです。（神奈川仕様）
+## 特徴
+番組の切り替わり時に1分間色を変えて目立たせます。
+## 使い方
+起動するだけです。  
+テストアプリなので設定等は一切ありません。  
+終了するには右クリックします。
+## ライセンス
+CC0 1.0 Universal
+
+[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](LICENSE)
+## 注意事項
+* 一切責任は持ちません。
+* 擦りガラス効果が環境によっては動かないかもしれません（Win10のみ？？）
+MainWindow.xaml.csの該当部分をコメントアウトしてください。
